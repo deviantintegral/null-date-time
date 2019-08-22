@@ -2,6 +2,8 @@
 
 [![CircleCI](https://circleci.com/gh/deviantintegral/null-date-time.svg?style=svg)](https://circleci.com/gh/deviantintegral/null-date-time)
 
+`composer require deviantintegral/null-date-time`
+
 This package provides classes that decorate \DateTime so that it is always
 formattable as a string, even if the time is empty or null.
 
