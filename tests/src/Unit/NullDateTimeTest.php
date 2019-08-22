@@ -10,7 +10,6 @@ use PHPUnit\Framework\TestCase;
  */
 class NullDateTimeTest extends TestCase
 {
-
     public function testFormat()
     {
         $this->assertSame('', (new NullDateTime())->format('U'));
