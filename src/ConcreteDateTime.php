@@ -23,8 +23,6 @@ class ConcreteDateTime implements ConcreteDateTimeInterface
      * @param string        $time
      * @param \DateTimeZone $timezone
      *
-     * @return self
-     *
      * @throws \Exception
      *
      * @see http://php.net/manual/en/datetime.construct.php
