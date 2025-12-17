@@ -1,6 +1,6 @@
 # Null Date Time for PHP
 
-[![CircleCI](https://circleci.com/gh/deviantintegral/null-date-time.svg?style=svg)](https://circleci.com/gh/deviantintegral/null-date-time)
+[![CI](https://github.com/deviantintegral/null-date-time/actions/workflows/ci.yml/badge.svg)](https://github.com/deviantintegral/null-date-time/actions/workflows/ci.yml)
 
 `composer require deviantintegral/null-date-time`
 
