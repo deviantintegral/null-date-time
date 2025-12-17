@@ -12,9 +12,11 @@ class ConcreteDateTimeTest extends TestCase
 {
     public function testFromString()
     {
-        $tz = new \DateTimeZone('PDT');
+        // Use proper timezone identifier instead of deprecated abbreviation 'PDT'
+        $tz = new \DateTimeZone('America/Los_Angeles');
         $time = ConcreteDateTime::fromString('2019-08-22', $tz);
         $this->assertEquals($tz, $time->getDateTime()->getTimezone());
-        $this->assertEquals(1566460800, $time->format('U'));
+        // 1566457200 = 2019-08-22 00:00:00 PDT (UTC-7)
+        $this->assertEquals(1566457200, $time->format('U'));
     }
 }

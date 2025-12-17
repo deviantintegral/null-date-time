@@ -13,6 +13,7 @@ namespace Deviantintegral\NullDateTime;
  *      if ($date instanceof \Deviantintegral\NullDateTime\ConcreteDateTimeInterface) {
  *          $date->getDateTime()->getTimestamp();
  *      }
+ *
  * @endcode
  */
 interface ConcreteDateTimeInterface extends DateTimeFormatInterface
