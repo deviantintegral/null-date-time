@@ -1,0 +1,42 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":preserveSemverRanges",
+    "helpers:pinGitHubActionDigests"
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": ["^\\.github/workflows/test\\.yml$", "^\\.claude/hooks/SessionStart\\.sh$"],
+      "matchStrings": [
+        "infection/infection/releases/download/(?<currentValue>.*?)/infection\\.phar"
+      ],
+      "depNameTemplate": "infection/infection",
+      "datasourceTemplate": "github-releases"
+    }
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    },
+    {
+      "matchCurrentVersion": "8.0",
+      "matchPackageNames": [
+        "php"
+      ],
+      "enabled": false
+    },
+    {
+      "matchCurrentVersion": "8.1",
+      "matchPackageNames": [
+        "php"
+      ],
+      "enabled": false
+    }
+  ]
+}
