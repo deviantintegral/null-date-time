@@ -16,6 +16,7 @@ namespace Deviantintegral\NullDateTime;
  * @code
  *      // $formatted will be '' if the object's date is undefined.
  *      $formatted = $date->format('Y-m-d H:i:s');
+ *
  * @endcode
  */
 interface DateTimeFormatInterface
