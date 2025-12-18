@@ -29,7 +29,7 @@ repos:
         pass_filenames: false
       - id: phpunit
         name: PHPUnit
-        entry: vendor/bin/phpunit --testdox
+        entry: bash -c 'XDEBUG_MODE=coverage vendor/bin/phpunit --testdox'
         language: system
         types: [php]
         pass_filenames: false
