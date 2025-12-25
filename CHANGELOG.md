@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.1](https://github.com/deviantintegral/null-date-time/compare/v1.1.0...v1.1.1) (2025-12-25)
+
+
+### Miscellaneous Chores
+
+* add missing public key for Infection ([4d1ce93](https://github.com/deviantintegral/null-date-time/commit/4d1ce934622209799c81b1dae83571507843be50))
+* **deps:** update dependency infection/infection to v0.32.0 ([#16](https://github.com/deviantintegral/null-date-time/issues/16)) ([04b4cb8](https://github.com/deviantintegral/null-date-time/commit/04b4cb8630f63db4ac87d1181e263f1a2ca06c1f))
+* install Infection in claude code for mutation testing ([9096a17](https://github.com/deviantintegral/null-date-time/commit/9096a17f376349808d0b401756f5ed62bacd0c35))
+
 ## [1.1.0](https://github.com/deviantintegral/null-date-time/compare/v1.0.0...v1.1.0) (2025-12-18)
 
 
