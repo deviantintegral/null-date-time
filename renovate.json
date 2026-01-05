@@ -25,7 +25,7 @@
         "/^\\.claude/hooks/SessionStart\\.sh$/"
       ],
       "matchStrings": [
-        "rhysd/actionlint/(?<currentValue>v[0-9.]+)/scripts/download-actionlint\\.bash\\)( (?<currentValue>[0-9.]+))?"
+        "rhysd/actionlint/v(?<currentValue>[0-9.]+)/scripts/download-actionlint\\.bash\\) [0-9.]+"
       ],
       "autoReplaceStringTemplate": "rhysd/actionlint/{{{newVersion}}}/scripts/download-actionlint.bash) {{{newValue}}}",
       "depNameTemplate": "rhysd/actionlint",
