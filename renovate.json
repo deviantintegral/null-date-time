@@ -37,9 +37,11 @@
   ],
   "packageRules": [
     {
-      "matchPackagePatterns": ["*"],
       "minimumReleaseAge": "3 days",
-      "automerge": true
+      "automerge": true,
+      "matchPackageNames": [
+        "*"
+      ]
     },
     {
       "matchCurrentVersion": "8.0",
