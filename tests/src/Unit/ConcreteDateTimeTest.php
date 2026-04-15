@@ -3,11 +3,10 @@
 namespace Deviantintegral\NullDateTime\Tests\Unit;
 
 use Deviantintegral\NullDateTime\ConcreteDateTime;
+use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
 
-/**
- * @covers \Deviantintegral\NullDateTime\ConcreteDateTime
- */
+#[CoversClass(ConcreteDateTime::class)]
 class ConcreteDateTimeTest extends TestCase
 {
     public function testFromString()
