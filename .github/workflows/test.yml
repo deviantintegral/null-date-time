@@ -39,11 +39,11 @@ jobs:
         uses: actions/cache@8b402f58fbc84540c8b491a91e594a4576fec3d7 # v5
         with:
           path: ${{ steps.composer-cache.outputs.dir }}
-          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: ${{ runner.os }}-composer-
 
       - name: Install dependencies
-        run: composer update -n --prefer-dist
+        run: composer install -n --prefer-dist
 
       - name: Create build directory
         run: mkdir -p build/logs
@@ -92,11 +92,11 @@ jobs:
         uses: actions/cache@8b402f58fbc84540c8b491a91e594a4576fec3d7 # v5
         with:
           path: ${{ steps.composer-cache.outputs.dir }}
-          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: ${{ runner.os }}-composer-
 
       - name: Install dependencies
-        run: composer update -n --prefer-dist
+        run: composer install -n --prefer-dist
 
       - name: Run PHP CS Fixer
         run: vendor/bin/php-cs-fixer fix -v --dry-run --using-cache=no
@@ -123,11 +123,11 @@ jobs:
         uses: actions/cache@8b402f58fbc84540c8b491a91e594a4576fec3d7 # v5
         with:
           path: ${{ steps.composer-cache.outputs.dir }}
-          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: ${{ runner.os }}-composer-
 
       - name: Install dependencies
-        run: composer update -n --prefer-dist
+        run: composer install -n --prefer-dist
 
       - name: Run PHPStan
         run: vendor/bin/phpstan analyse
@@ -156,11 +156,11 @@ jobs:
         uses: actions/cache@8b402f58fbc84540c8b491a91e594a4576fec3d7 # v5
         with:
           path: ${{ steps.composer-cache.outputs.dir }}
-          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: ${{ runner.os }}-composer-
 
       - name: Install dependencies
-        run: composer update -n --prefer-dist
+        run: composer install -n --prefer-dist
 
       - name: Download Infection PHAR
         run: |
