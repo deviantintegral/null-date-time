@@ -28,7 +28,7 @@
       "matchStrings": [
         "rhysd/actionlint/v(?<currentValue>[0-9.]+)/scripts/download-actionlint\\.bash\\) [0-9.]+"
       ],
-      "autoReplaceStringTemplate": "rhysd/actionlint/{{{newVersion}}}/scripts/download-actionlint.bash) {{{newValue}}}",
+      "autoReplaceStringTemplate": "rhysd/actionlint/v{{{newVersion}}}/scripts/download-actionlint.bash) {{{newValue}}}",
       "depNameTemplate": "rhysd/actionlint",
       "datasourceTemplate": "github-releases",
       "extractVersionTemplate": "^v(?<version>.*)$"
