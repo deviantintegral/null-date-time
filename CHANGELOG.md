@@ -1,5 +1,36 @@
 # Changelog
 
+## [1.1.3](https://github.com/deviantintegral/null-date-time/compare/v1.1.2...v1.1.3) (2026-09-05)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/cache action to v6 ([#62](https://github.com/deviantintegral/null-date-time/issues/62)) ([6e18684](https://github.com/deviantintegral/null-date-time/commit/6e1868420e8a778cf3311083b75ccc197533b8e4))
+* **deps:** update actions/cache digest to 55cc834 ([#63](https://github.com/deviantintegral/null-date-time/issues/63)) ([763c7e7](https://github.com/deviantintegral/null-date-time/commit/763c7e7e4d5db0032f632bc93ab70fe1482579e6))
+* **deps:** update actions/checkout action to v7 ([#59](https://github.com/deviantintegral/null-date-time/issues/59)) ([d856445](https://github.com/deviantintegral/null-date-time/commit/d85644523ed8f82ff01f7477e72099da368ed5ed))
+* **deps:** update actions/checkout digest to 3d3c42e ([#65](https://github.com/deviantintegral/null-date-time/issues/65)) ([2a8a1b7](https://github.com/deviantintegral/null-date-time/commit/2a8a1b73af939409b5963beb93afcc53b3302d68))
+* **deps:** update actions/checkout digest to df4cb1c ([#57](https://github.com/deviantintegral/null-date-time/issues/57)) ([81cb1e8](https://github.com/deviantintegral/null-date-time/commit/81cb1e8d40361f72674f57fee6b49e726129340c))
+* **deps:** update dependency infection/infection to v0.32.7 ([#50](https://github.com/deviantintegral/null-date-time/issues/50)) ([1ce379a](https://github.com/deviantintegral/null-date-time/commit/1ce379ac809ee377b46c62162c33748bc1497297))
+* **deps:** update dependency infection/infection to v0.33.0 ([#53](https://github.com/deviantintegral/null-date-time/issues/53)) ([53a448e](https://github.com/deviantintegral/null-date-time/commit/53a448e420c2646b67194834a9fe6ad98d7be39a))
+* **deps:** update dependency infection/infection to v0.33.1 ([#54](https://github.com/deviantintegral/null-date-time/issues/54)) ([6fac67c](https://github.com/deviantintegral/null-date-time/commit/6fac67cf102b6637142e1a2db360e8709ef546e4))
+* **deps:** update dependency infection/infection to v0.33.2 ([#55](https://github.com/deviantintegral/null-date-time/issues/55)) ([42920db](https://github.com/deviantintegral/null-date-time/commit/42920db49ed3a9a724d121544696e1f0303ab5dc))
+* **deps:** update dependency infection/infection to v0.33.3 ([#60](https://github.com/deviantintegral/null-date-time/issues/60)) ([686e7ad](https://github.com/deviantintegral/null-date-time/commit/686e7ad5c8a39c370f45bcd6cbe3bad2bd0bf852))
+* **deps:** update dependency infection/infection to v0.34.0 ([#64](https://github.com/deviantintegral/null-date-time/issues/64)) ([4921c93](https://github.com/deviantintegral/null-date-time/commit/4921c93f6cb31650b4700e00b5cf419e3e806ddb))
+* **deps:** update dependency infection/infection to v0.34.1 ([#66](https://github.com/deviantintegral/null-date-time/issues/66)) ([cebbb7a](https://github.com/deviantintegral/null-date-time/commit/cebbb7a242eae9a744ce2c11fdbe2975e13fac69))
+* **deps:** update dependency infection/infection to v0.34.2 ([#68](https://github.com/deviantintegral/null-date-time/issues/68)) ([aa84753](https://github.com/deviantintegral/null-date-time/commit/aa847530485a27ed4799c05ed23834196c76de71))
+* **deps:** update dependency infection/infection to v0.35.0 ([#69](https://github.com/deviantintegral/null-date-time/issues/69)) ([7942e96](https://github.com/deviantintegral/null-date-time/commit/7942e96fbd5aa739714b233e5da9e3edf7713903))
+* **deps:** update dependency infection/infection to v0.35.1 ([#70](https://github.com/deviantintegral/null-date-time/issues/70)) ([8eaa1e5](https://github.com/deviantintegral/null-date-time/commit/8eaa1e522d4da2cd34c00206af7013440d33a3f7))
+* **deps:** update dependency infection/infection to v0.35.2 ([#71](https://github.com/deviantintegral/null-date-time/issues/71)) ([dc8dcc0](https://github.com/deviantintegral/null-date-time/commit/dc8dcc08a6a3b1f14a7149438840dd783002ad08))
+* **deps:** update dependency infection/infection to v0.35.3 ([#72](https://github.com/deviantintegral/null-date-time/issues/72)) ([c6bd5b0](https://github.com/deviantintegral/null-date-time/commit/c6bd5b0223788c14fb95078b6cb90d3c1151e739))
+* **deps:** update dependency infection/infection to v0.35.4 ([#73](https://github.com/deviantintegral/null-date-time/issues/73)) ([bb29748](https://github.com/deviantintegral/null-date-time/commit/bb2974872c04f4a23aaccdaad6513eaaa1cf220c))
+* **deps:** update ggilder/codecoverage digest to 3ae5dbe ([#67](https://github.com/deviantintegral/null-date-time/issues/67)) ([abf4e96](https://github.com/deviantintegral/null-date-time/commit/abf4e96343bf71cf36e1a3f9991b0fbf8b1e7619))
+* **deps:** update ggilder/codecoverage digest to 5143984 ([#56](https://github.com/deviantintegral/null-date-time/issues/56)) ([7678ae0](https://github.com/deviantintegral/null-date-time/commit/7678ae0b8930d0bd629b5e1086d9aee41aaf8371))
+* **deps:** update ggilder/codecoverage digest to f8afbff ([#61](https://github.com/deviantintegral/null-date-time/issues/61)) ([06e4b1c](https://github.com/deviantintegral/null-date-time/commit/06e4b1c8738432113d22ae38c667ace807564c19))
+* **deps:** update googleapis/release-please-action action to v5 ([#48](https://github.com/deviantintegral/null-date-time/issues/48)) ([5495545](https://github.com/deviantintegral/null-date-time/commit/5495545e22b8507c69fa3cb015c655f8cf3f1fd3))
+* **deps:** update shivammathur/setup-php digest to 7c071df ([#52](https://github.com/deviantintegral/null-date-time/issues/52)) ([0032427](https://github.com/deviantintegral/null-date-time/commit/003242768bee3cee6820b9aaec3e24e4c2483459))
+* **deps:** update shivammathur/setup-php digest to f3e473d ([#58](https://github.com/deviantintegral/null-date-time/issues/58)) ([7abb7d3](https://github.com/deviantintegral/null-date-time/commit/7abb7d39579b0355ff898ec7f4c5941407084bf0))
+* **deps:** update webiny/action-conventional-commits action to v1.4.2 ([#51](https://github.com/deviantintegral/null-date-time/issues/51)) ([b90a1ac](https://github.com/deviantintegral/null-date-time/commit/b90a1ac4745828bbb935f3a447a478bf849864ea))
+
 ## [1.1.2](https://github.com/deviantintegral/null-date-time/compare/v1.1.1...v1.1.2) (2026-04-15)
 
 
